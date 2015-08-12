@@ -2,7 +2,7 @@ __author__ = 'mateenahmeed'
 import scrapy
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors.sgml import SgmlLinkExtractor
-from gulahmed.items import KaprePkItem
+from kaprescrapers.items import KaprePkItem
 
 
 class GulAhmedSpider(CrawlSpider):
